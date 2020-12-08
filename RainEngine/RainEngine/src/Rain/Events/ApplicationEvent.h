@@ -34,12 +34,12 @@ namespace Rain {
 		EVENT_CLASS_CATEGORY(EventCategoryApplication);
 	};
 
-	class WindowCloseEvent : public Event
+	class AppTickEvent : public Event
 	{
 	public:
-		WindowCloseEvent() = default;
+		AppTickEvent() = default;
 
-		EVENT_CLASS_TYPE(WindowClose);
+		EVENT_CLASS_TYPE(AppTick);
 		EVENT_CLASS_CATEGORY(EventCategoryApplication);
 	};
 
@@ -57,7 +57,7 @@ namespace Rain {
 	public:
 		AppRenderEvent() = default;
 
-		EVENT_CLASS_TYPE(AppRenderEvent);
+		EVENT_CLASS_TYPE(AppRender);
 		EVENT_CLASS_CATEGORY(EventCategoryApplication);
 	};
 }

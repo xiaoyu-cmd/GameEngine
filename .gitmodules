@@ -1,0 +1,3 @@
+[submodule "RainEngine/RainEngine/vendor/spdlog"]
+	path = RainEngine/RainEngine/vendor/spdlog
+	url = https://github.com/gabime/spdlog
